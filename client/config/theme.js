@@ -2,7 +2,8 @@ import { StyleSheet } from "react-native";
 
 const colors = {
     primary: "#1c1e20",
-    white: "#eDeef2",
+    white: "#edeef2",
+    accent: "#a4aeff",
 };
 
 const theme = {
@@ -26,7 +27,18 @@ const theme = {
         },
     },
 
-    roundedRectangle: {},
+    filledBox: {
+        container: {
+            marginTop: 20,
+            backgroundColor: colors.accent,
+            borderRadius: 10,
+            padding: 20,
+        },
+        title: {
+            fontFamily: "Inter-Bold",
+            fontSize: 24,
+        },
+    },
 };
 
 export default theme;
