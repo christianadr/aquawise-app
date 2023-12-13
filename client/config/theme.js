@@ -20,8 +20,6 @@ const theme = {
     appBarTheme: {
         container: {
             backgroundColor: colors.primary,
-            alignItems: "center",
-            justifyContent: "center",
         },
         title: {
             fontFamily: "Inter-Black",
