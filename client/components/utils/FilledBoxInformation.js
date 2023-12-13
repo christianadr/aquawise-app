@@ -2,7 +2,7 @@ import React from "react";
 import { View, Image, Text } from "react-native";
 import theme from "../../config/theme";
 
-export const FilledBoxInformation = ({ message, aveFlowRate }) => {
+export const FilledBoxInformation = ({ message, averageFlowRate }) => {
     const styles = theme.filledBox;
     return (
         <View style={styles.container}>
@@ -16,8 +16,8 @@ export const FilledBoxInformation = ({ message, aveFlowRate }) => {
                     alignSelf: "center",
                 }}
             />
-            <Text style={[styles.title, { fontSize: 40 }]}>
-                {aveFlowRate} L/min.
+            <Text style={[styles.title, { fontSize: 30 }]}>
+                {averageFlowRate} liter/minute
             </Text>
         </View>
     );
