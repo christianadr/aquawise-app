@@ -9,7 +9,6 @@ const theme = {
     overviewTheme: {
         container: {
             flex: 1,
-            alignItems: "center",
             backgroundColor: colors.primary,
         },
         text: {
